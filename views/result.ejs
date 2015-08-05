@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Simple Survey Form ~ using Express</title>
+	<link rel="stylesheet" type="text/css" href="index_style.css">
+</head>
+<body>
+	<div class="container">
+			<p class='indexLeft'>Your Name:</p>
+			<p class='indexRight'><%= survey.name %></p>
+			<p class='indexLeft'>Location:</p>
+			<p class='indexRight'><%= survey.location %></p>
+			<p class='indexLeft'>Favorite Language:</p>
+			<p class='indexRight'><%= survey.language %></p>
+			<p class='indexLeft'>Comment (optional):</p>
+			<p class='indexRight'><%= survey.comment %></p>
+			<button id='back'><a href="/">Go Back</a></button>
+	</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+	margin: 0px auto;
+}
+.container {
+	width: 337px;
+	height: auto;
+	border: solid black 1px;
+	border-radius: 3px;
+	padding: 10px;
+}
+.indexLeft, .indexRight {
+	display: inline-block;
+	width: 166px;
+}
+select {
+	width: 166px;
+}
+textarea {
+	width: 336px;
+	height: 55px;
+}
+button {
+	background-color: blue;
+	color: white;
+	margin: 5px 0px auto 278px;
+}
+#back {
+	background-color: blue;
+	color: white;
+	margin: 5px 0px auto 258px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}

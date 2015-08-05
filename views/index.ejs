@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>Simple Survey Form ~ using Express</title>
+	<link rel="stylesheet" type="text/css" href="index_style.css">
+</head>
+<body>
+	<div class="container">
+		<form action='/result' method='post'>
+			<p class='indexLeft'>Your Name:</p>
+			<input type='text' name='name'>
+			<p class='indexLeft'>Location:</p>
+			<select name='location'>
+				<option>Mountain View</option>
+				<option>Cupertino</option>
+				<option>Sunnyvale</option>
+				<option>Santa Clara</option>
+				<option>San Jose</option>
+				<option>Where Ever</option>
+			</select>
+			<p class='indexLeft'>Favorite Language:</p>
+			<select name='language'>
+				<option>JavaScript</option>
+				<option>PHP</option>
+				<option>Ruby</option>
+				<option>C#</option>
+				<option>Java</option>
+				<option>Whatever</option>
+			</select>
+			<p>Comment (optional):</p>
+			<textarea name='comment'></textarea>
+			<button type='submit'>Submit</button>
+		</form>
+	</div>
+</body>
+</html>
